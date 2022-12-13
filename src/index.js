@@ -10,6 +10,11 @@ import Traps from "./routes/traps";
 import Pecs from "./routes/pecs";
 import Shoulders from "./routes/shoulders";
 import Biceps from "./routes/biceps";
+import Abdominals from "./routes/abdominals";
+import Obliques from "./routes/obliques";
+import Quadriceps from "./routes/quadriceps";
+import Hamstrings from "./routes/hamstrings";
+import Calves from "./routes/calves";
 
 const router = createBrowserRouter([
   {
@@ -31,6 +36,26 @@ const router = createBrowserRouter([
   {
     path: "/biceps",
     element: <Biceps />,
+  },
+  {
+    path: "/abdominals",
+    element: <Abdominals />,
+  },
+  {
+    path: "/obliques",
+    element: <Obliques />,
+  },
+  {
+    path: "/quadriceps",
+    element: <Quadriceps />,
+  },
+  {
+    path: "/hamstrings",
+    element: <Hamstrings />,
+  },
+  {
+    path: "/calves",
+    element: <Calves />,
   },
 ]);
 
